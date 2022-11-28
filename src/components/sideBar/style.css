@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: darkgray;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 200px;
+  background-color: rgb(110, 64, 132);
+  display: inline-flex;
+}
+li {
+  margin-bottom: 20px;
+  list-style: none;
+
+  color: aliceblue;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+ul {
+  /*margin-top: 50px;*/
+}
+
+.container {
+  display: inline-flex;
+  margin-bottom: 50px;
+}
+h1 {
+  margin-left: 10px;
+}
